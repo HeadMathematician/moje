@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.prvi{
+  width: 250px;
+  height: 120px;
+  text-align: center;
+  margin: auto;
+  text-transform: Uppercase;
+  background-color: purple transparent;
+  color:white;
+  padding: 50px;
+  top: 40px;
+  font-size: 60px;
+  transition: background 2s, transform 2s, color 2s, font-size 2s, box-shadow 2s;
+  text-shadow: 5px 5px 5px grey
+}
+.drugi{
+  font-size: 15px;
+  transition: color 2s;
+  color: black;
+}
+.prvi:hover{
+  background: yellow;
+  transform: rotate(720deg);
+  color: purple;
+  font-size: 15px;
+}
+.drugi:hover{
+  color: red;
+}
+
+.slika{
+  transform: translate(10px 50px);
+  transition: transform 2s;
+}
+.slika:hover{
+  transform: translate(500px);
+}
+
+</style>
+<body style="background-image:url(http://dubeat.com/wp-content/uploads/bazinga.png); background-size:cover;">
+
+<div class="prvi">Disi tajo
+  <div class="drugi">zavrti se :D</div>
+</div>
+
+<div class="slika"><img src="https://i.pinimg.com/originals/4e/5c/f7/4e5cf7d4ccb9c59b6620a9c71944d51e.png"></div>
+
+
+</body>
+</html>
